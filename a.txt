@@ -1,1 +1,10 @@
-My name is Satyam keshari
+1.Create a New Repository on GitHub
+Go to https://github.com
+Click "New" (to create a repository)
+Fill repo name → Click "Create repository"
+2.git clone https://github.com/username/repo-name.git
+3.cd repo-name
+4.git checkout -b my-branch
+5.git add .
+6.git commit -m "your message"
+7.git push origin my-branch /main
