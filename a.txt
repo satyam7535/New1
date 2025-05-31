@@ -59,4 +59,3 @@ git pull origin main / branchName
 1. Go to the Pull Requests tab of the original repository.
 2. Open your pull request.
 3. Click "Merge pull request" → then "Confirm merge".
-
