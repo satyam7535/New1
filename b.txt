@@ -20,7 +20,8 @@
 1. Copy the GitHub repository URL (HTTPS).
    Example: https://github.com/your-username/my-project.git
 2. Add the remote origin and push your code:
-   git remote add origin https://github.com/your-username/my-project.git
+   git remote add origin https://github.com/your-username/my-project.git  or
+   git remote set-url origin https://github.com/satyam7535/New1.git
    git branch -M main
    git push -u origin main
 
@@ -45,3 +46,25 @@
 1. Go to the Pull Requests tab.
 2. Open your pull request.
 3. Click "Merge pull request" → "Confirm merge".
+
+
+ase 1: Remote doesn’t exist — Add it
+git remote add origin https://github.com/your-username/your-repo.git
+✅ Case 2: Remote exists but points to the wrong repo — Update it
+git remote set-url origin https://github.com/your-username/your-repo.git
+✅ Case 3: Remove the remote and re-add it (optional)
+git remote remove origin
+git remote add origin https://github.com/your-username/your-repo.git
+📤 Final Step: Push your code
+Once the remote is set correctly:
+git push -u origin main
+
+
+
+
+git branch -M main :  It renames the current branch to main
+git remote -v	   :  The remote repository URL(s) your local repo syncs with
+git branch	       :  The local branches, and which one you’re currently on
+
+git config user.name "Your Name"
+git config user.email "your-email@example.com"
