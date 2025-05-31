@@ -9,3 +9,7 @@ Fill repo name → Click "Create repository"
 5.git add .
 6.git commit -m "your message"
 7.git push origin my-branch /main
+8.(Optional) Create Pull Request
+Go to GitHub → Click "Compare & pull request" → Create pull request
+// To pull chnages made in repository
+git pull origin main / branchName
